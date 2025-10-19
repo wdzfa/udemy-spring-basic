@@ -38,7 +38,7 @@ public class StudentController {
     }
 
     // PathVariable
-    // http://localhost:8080/students/1/wadzifatur/saputra
+    // http://localhost:8080/students/1/wadzifatur/rohmania
     @GetMapping("students/{id}/{first-name}/{last-name}")
     public Student studentPathVariable (@PathVariable("id") int studentId,
                                         @PathVariable("first-name") String fistName,
